@@ -1,0 +1,255 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Paneer Butter Masala",
+      "image": "https://mealpractice.b-cdn.net/47023705355849728/paneer-tikka-masala-with-garlic-naan-bpst8g22r6.webp",
+      "duration": "30 min",
+      "author": "Chef Ritu",
+      "chef": "Dishita",
+      "tags": [
+        "Indian",
+        "Main Courses"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Cottage cheese cubes cooked in a creamy tomato-based gravy with butter and spices.",
+      "ingredients": [
+        "200g paneer cubes",
+        "2 onions",
+        "3 tomatoes",
+        "2 tbsp butter",
+        "1/2 cup cream",
+        "Spices (garam masala, chili, turmeric)"
+      ],
+      "steps": [
+        "Sauté onions and tomatoes with spices.",
+        "Blend into smooth paste.",
+        "Cook paste with butter and cream.",
+        "Add paneer cubes and simmer.",
+        "Serve hot with naan or rice."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Masala Dosa",
+      "image": "https://shop.sresthproducts.com/wp-content/uploads/2024/12/masala-dosa-1200x675.jpg",
+      "duration": "35 min",
+      "author": "Chef Lakshmi",
+      "chef": "Lakshmi Iyer",
+      "tags": [
+        "Indian",
+        "South Indian"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Crispy rice and lentil crepe filled with spiced potato masala, served with chutney and sambar.",
+      "ingredients": [
+        "2 cups dosa batter",
+        "3 boiled potatoes",
+        "Onion, green chilies",
+        "Spices (mustard seeds, turmeric)",
+        "Curry leaves"
+      ],
+      "steps": [
+        "Prepare potato masala stuffing.",
+        "Heat tawa and spread dosa batter thinly.",
+        "Add stuffing and fold dosa.",
+        "Serve with coconut chutney and sambar."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Palak Paneer",
+      "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2021/11/palak-paneer-1.jpg",
+      "duration": "25 min",
+      "author": "Chef Neha",
+      "chef": "Neha Kapoor",
+      "tags": [
+        "Indian",
+        "Healthy Eats"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Paneer cubes cooked in a smooth spinach gravy with Indian spices.",
+      "ingredients": [
+        "200g paneer cubes",
+        "2 cups spinach",
+        "1 onion",
+        "2 tomatoes",
+        "Spices (ginger, garlic, chili, garam masala)"
+      ],
+      "steps": [
+        "Blanch spinach and blend to puree.",
+        "Prepare onion-tomato masala.",
+        "Add spinach puree and cook.",
+        "Add paneer cubes and simmer.",
+        "Serve hot with chapati or rice."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Vegetable Biryani",
+      "image": "https://img.taste.com.au/_L7m5vxs/taste/2016/11/vegetable-biryani-102620-1.jpeg",
+      "duration": "50 min",
+      "author": "Chef Arjun",
+      "chef": "Arjun Menon",
+      "tags": [
+        "Indian",
+        "Rice Dishes"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Aromatic basmati rice layered with spiced vegetables and saffron for a rich biryani.",
+      "ingredients": [
+        "2 cups basmati rice",
+        "Mixed vegetables (carrot, beans, peas)",
+        "Onion, tomato, ginger-garlic",
+        "Whole spices (cardamom, cloves, bay leaf)",
+        "Yogurt, saffron milk"
+      ],
+      "steps": [
+        "Cook rice with whole spices.",
+        "Prepare vegetable masala with yogurt.",
+        "Layer rice and masala in pot.",
+        "Top with saffron milk and ghee.",
+        "Dum cook and serve with raita."
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Aloo Paratha",
+      "image": "https://www.kingarthurbaking.com/sites/default/files/2025-07/Aloo-Paratha-_2025_Lifestyle_H_2435.jpg",
+      "duration": "25 min",
+      "author": "Chef Priya",
+      "chef": "Priya Nair",
+      "tags": [
+        "Indian",
+        "Breakfast"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Whole wheat flatbread stuffed with spiced potato filling, cooked with ghee.",
+      "ingredients": [
+        "2 cups wheat flour",
+        "3 boiled potatoes",
+        "Green chilies, coriander",
+        "Spices (cumin, garam masala, chili)",
+        "Ghee or butter"
+      ],
+      "steps": [
+        "Prepare wheat dough.",
+        "Mash potatoes and add spices.",
+        "Stuff filling inside dough balls.",
+        "Roll and cook on tawa with ghee.",
+        "Serve with curd and pickle."
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Chole Bhature",
+      "image": "https://i.pinimg.com/736x/6b/2e/42/6b2e42768af595d6f0c0a8cc5e257db3.jpg",
+      "duration": "40 min",
+      "author": "Chef Anjali",
+      "chef": "Anjali Verma",
+      "tags": [
+        "Indian",
+        "North Indian"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Spicy chickpea curry served with deep-fried fluffy bread (bhature).",
+      "ingredients": [
+        "2 cups chickpeas (soaked)",
+        "2 onions",
+        "3 tomatoes",
+        "Spices (coriander, cumin, garam masala)",
+        "Flour, yogurt (for bhature)"
+      ],
+      "steps": [
+        "Cook soaked chickpeas with spices and tomato-onion masala.",
+        "Knead flour with yogurt and rest dough.",
+        "Roll dough into bhature and deep fry.",
+        "Serve hot with chole, onion rings, and pickle."
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Idli Sambar",
+      "image": "https://i-media.vyaparify.com/vcards/blogs/290257/idli-sambar.jpg",
+      "duration": "30 min",
+      "author": "Chef Kavya",
+      "chef": "Kavya Ramesh",
+      "tags": [
+        "Indian",
+        "South Indian",
+        "Breakfast"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Soft steamed rice cakes served with tangy lentil-based sambar and chutney.",
+      "ingredients": [
+        "2 cups idli batter",
+        "1 cup toor dal",
+        "Tamarind, sambar powder",
+        "Drumsticks, carrots, onions",
+        "Curry leaves, mustard seeds"
+      ],
+      "steps": [
+        "Steam idlis in idli stand.",
+        "Cook dal with vegetables, tamarind, and sambar powder.",
+        "Temper with curry leaves and mustard seeds.",
+        "Serve hot idlis with sambar and coconut chutney."
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Rajma Chawal",
+      "image": "https://foodtopia.co.in/wp-content/uploads/2021/09/rajma-chawal-foodtopia-recipes.png",
+      "duration": "45 min",
+      "author": "Chef Rohit",
+      "chef": "Rohit Malhotra",
+      "tags": [
+        "Indian",
+        "Comfort Food"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Kidney beans cooked in rich onion-tomato gravy served with steamed rice.",
+      "ingredients": [
+        "1.5 cups rajma (soaked overnight)",
+        "2 onions",
+        "3 tomatoes",
+        "Spices (ginger-garlic paste, cumin, garam masala)",
+        "2 cups rice"
+      ],
+      "steps": [
+        "Pressure cook soaked rajma until soft.",
+        "Prepare onion-tomato masala with spices.",
+        "Add rajma and simmer for 15 minutes.",
+        "Cook rice separately.",
+        "Serve hot rajma with chawal."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Pav Bhaji",
+      "image": "https://bluenilekitchen.com/wp-content/uploads/2024/08/Pav-Bhaji.jpg",
+      "duration": "35 min",
+      "author": "Chef Meera",
+      "chef": "Meera Joshi",
+      "tags": [
+        "Indian",
+        "Street Food"
+      ],
+      "cta": "See Complete Recipe",
+      "description": "Spicy mashed vegetable curry served with butter-toasted pav buns.",
+      "ingredients": [
+        "2 cups mixed vegetables (potato, peas, carrot, capsicum)",
+        "2 onions",
+        "2 tomatoes",
+        "Pav bhaji masala",
+        "Butter, pav buns"
+      ],
+      "steps": [
+        "Boil vegetables and mash them.",
+        "Cook onion-tomato masala with pav bhaji masala.",
+        "Add mashed vegetables and simmer.",
+        "Toast pav buns with butter.",
+        "Serve bhaji with pav, onion, and lemon wedges."
+      ]
+    }
+  ]
+}
