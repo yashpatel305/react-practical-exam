@@ -32,6 +32,11 @@ const RecipeDetails = () => {
                             <div className="chef-name text-muted mb-2">
                                 <strong>Chef:</strong> {recipe.chef}
                             </div>
+                            {recipe.duration && (
+                                <div className="prep-time text-muted mb-2">
+                                    <strong>Prep Time:</strong> {recipe.duration}
+                                </div>
+                            )}
                         </div>
                     </div>
                     <div className="recipe-meta">
