@@ -68,10 +68,36 @@ export default function RecipeList() {
 
   return (
     <>
-      <section className="culinary-banner-gradient py-5 mb-4">
-        <div className="container text-center">
-          <h2 className="display-5 fw-bold text-white mb-0">Explore <span className="accent">Culinary</span> Insight</h2>
+      <section 
+        className="culinary-banner-gradient py-5 mb-4 position-relative overflow-hidden"
+        style={{
+          background: 'linear-gradient(90deg, #198754 60%, #43c59e 100%)',
+          minHeight: '180px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '0 0 2rem 2rem',
+          boxShadow: '0 2px 16px 0 rgba(25,135,84,0.08)',
+          overflow: 'hidden'
+        }}
+      >
+        {/* Animated background particles */}
+        <div 
+          className="position-absolute w-100 h-100"
+          style={{
+            background: 'radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%), radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.05) 0%, transparent 50%)',
+            animation: 'float 20s ease-in-out infinite'
+          }}
+        />
+        <div className="container text-center position-relative" style={{ zIndex: 2 }}>
+          <h2 className="display-5 fw-bold text-white mb-0">Explore the Vault of Delicious Recipes</h2>
         </div>
+        <style jsx>{`
+          @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+          }
+        `}</style>
       </section>
 
       <section className="what-to-cook container pb-5">

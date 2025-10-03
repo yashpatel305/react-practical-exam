@@ -81,12 +81,54 @@ const RecipeSubmissionForm = () => {
 
   return (
     <>
-     <section className="rs-hero">
-      <div className="rs-content">
-        <h2>
+    <section 
+      className="rs-hero text-white py-5 mb-4 position-relative overflow-hidden"
+      style={{
+        background: 'linear-gradient(90deg, #198754 60%, #43c59e 100%)',
+        backgroundSize: '400% 400%',
+        animation: 'gradientShift 15s ease infinite'
+      }}
+    >
+      {/* Animated background particles */}
+      <div 
+        className="position-absolute w-100 h-100"
+        style={{
+          background: 'radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%), radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.05) 0%, transparent 50%)',
+          animation: 'float 20s ease-in-out infinite'
+        }}
+      />
+      <div className="container text-center position-relative" style={{ zIndex: 2 }}>
+        <h2 
+          className="display-5 fw-bold mb-3"
+          style={{
+            animation: 'fadeInUp 1s ease-out',
+            textShadow: '0 4px 20px rgba(0,0,0,0.3)'
+          }}
+        >
           Recipe Submission Form
         </h2>
       </div>
+      <style jsx>{`
+        @keyframes gradientShift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0px) rotate(0deg); }
+          50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </section>
     <div className="container recipe-form-container mt-4 mb-5">
       <h2 className="mb-3">{id ? "Edit Recipe" : "Add Recipe"}</h2>
